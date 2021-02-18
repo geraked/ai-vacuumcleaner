@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="پروژه جارو برقی">
+    <meta name="author" content="Geraked, Rabist">
+    <title>جارو برقی</title>
+    <link rel="icon" href="images/icon.png" type="image/png">
+
+    <link href="plugins/bootstrap/css/bootstrap-rtl.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="plugins/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <main role="main" class="container-fluid">
+        <div class="form-row">
+            <div class="col">
+                <label for="m-num">سطر</label>
+                <input id="m-num" type="number" class="form-control">
+            </div>
+            <div class="col">
+                <label for="n-num">ستون</label>
+                <input id="n-num" type="number" class="form-control">
+            </div>
+            <div class="col">
+                <label for="delay-num">تأخیر</label>
+                <input id="delay-num" type="number" class="form-control">
+            </div>
+            <div class="col-auto">
+                <button id="start-btn" class="btn btn-success mb-2">شروع</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col"><span id="dirt-no">تعداد زباله‌ها:</span></div>
+            <div class="col"><span id="checked-no">خانه‌های بررسی شده:</span></div>
+            <div class="col"><span id="suck-no">تعداد مکش:</span></div>
+            <div class="col"><span id="action-no">تعداد عمل‌ها:</span></div>
+        </div>
+        <div id="table-wrapper"></div>
+    </main><!-- /.container -->
+
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <script src="plugins/popper/popper.min.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/bundle.js"></script>
+
+</body>
+
+</html>
