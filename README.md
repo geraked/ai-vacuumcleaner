@@ -2,7 +2,7 @@
 
 # Vacuum Cleaner
 
-Implementation of Simple AI Vacuum Cleaner Agent (Undergraduate Project)
+Implementation of Simple AI Vacuum Cleaner Agent (Undergraduate AI Course Project)
 
 ## Demo
 View the online [Demo](https://geraked.ir/portfolio/ai-vacuumcleaner/).
